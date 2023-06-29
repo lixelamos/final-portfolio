@@ -16,7 +16,11 @@
                                   <li class="menu-links-items"><a  data-scroll-to class="menu-links-items-a" href="#about-section-id">about</a></li>
                                   <li class="menu-links-items"><a data-scroll-to  class="menu-links-items-a" href="#projects-section-id">projects</a></li>
                                   <li class="menu-links-items"><a  data-scroll-to class="menu-links-items-a" href="#contact-section-id">contact</a></li>
-                                  <li class="menu-links-items"><a data-scroll-to class="menu-links-items-a" href="https://drive.google.com/file/d/1ouhgl8l1xwwUY4Oa31HYdWYvvF9caRFO/view?usp=sharing">my resume</a></li> 
+                                  <li class="menu-links-items">
+  <a class="menu-links-items-a" target="_blank" href="https://drive.google.com/file/d/1ouhgl8l1xwwUY4Oa31HYdWYvvF9caRFO/view?usp=sharing">resume</a>
+</li>
+
+ 
 
                                   <div class="nav-mail-div">
                                         <p>Get in touch</p>
@@ -94,18 +98,23 @@
       import projectsComp from './components/projects.vue'
       import bottomSectionComp from './components/bottomsection.vue'
       import contactComp from './components/contact.vue'
-    
-    export default {
+      import resumeSectionComp from'./components/resume.vue'
+    export default
+     {
+        
+        
       name: 'App',
       components: {
         topSectionComp,
         aboutComp,
         projectsComp,
         contactComp,
-        bottomSectionComp,
+        bottomSectionComp},
+        resumeSectionComp
+}
     
-      }
-    }
+      
+    
     </script>
     
     <style lang="scss">
