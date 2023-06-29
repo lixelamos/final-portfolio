@@ -16,7 +16,7 @@
                                   <li class="menu-links-items"><a  data-scroll-to class="menu-links-items-a" href="#about-section-id">about</a></li>
                                   <li class="menu-links-items"><a data-scroll-to  class="menu-links-items-a" href="#projects-section-id">projects</a></li>
                                   <li class="menu-links-items"><a  data-scroll-to class="menu-links-items-a" href="#contact-section-id">contact</a></li>
-                                  <li class="menu-links-items"><a href="https://drive.google.com/file/d/1ouhgl8l1xwwUY4Oa31HYdWYvvF9caRFO/view?usp=sharing">my resume</a></li> 
+                                  <li class="menu-links-items"><a data-scroll-to class="menu-links-items-a" href="https://drive.google.com/file/d/1ouhgl8l1xwwUY4Oa31HYdWYvvF9caRFO/view?usp=sharing">my resume</a></li> 
 
                                   <div class="nav-mail-div">
                                         <p>Get in touch</p>
