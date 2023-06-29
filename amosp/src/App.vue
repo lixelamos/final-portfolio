@@ -8,7 +8,7 @@
                           <div class="logo">
                               <div class="logo-image-container">
                                 
-                                <a href="https://kipkorir.com/" class="top-page-logo lg">Kipkorir</a>
+                                <a href="https://akipkorirportfolio.vercel.app/" class="top-page-logo lg">Kipkorir</a>
                               </div>
                           </div>
                           <div class="page-header-links">
