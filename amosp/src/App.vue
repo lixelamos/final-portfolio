@@ -17,7 +17,7 @@
                                   <li class="menu-links-items"><a data-scroll-to  class="menu-links-items-a" href="#projects-section-id">projects</a></li>
                                   <li class="menu-links-items"><a  data-scroll-to class="menu-links-items-a" href="#contact-section-id">contact</a></li>
                                   <li class="menu-links-items">
-  <a class="menu-links-items-a" target="_blank" href="https://drive.google.com/file/d/1O9vvy5a6bcyk7DwJvzn-SagzNdtx48zz/view?usp=sharing">resume</a>
+  <a class="menu-links-items-a" target="_blank" href="https://drive.google.com/file/d/1PmtLIVacga9QaaUgWsrlhP8BIMDm1t0M/view?usp=sharing">resume</a>
 </li>
 
  
