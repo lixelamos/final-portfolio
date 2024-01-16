@@ -109,7 +109,7 @@
                         </div>   
 
                         <h1>Home-Quest</h1>
-                        <p>This roject aims to create a comprehensive online platform that connects property
+                        <p>This project aims to create a comprehensive online platform that connects property
 buyers, sellers, and renters, offering a user-friendly and informative experience for individuals seeking to buy, sell, or rent
 residential and commercial properties.</p>
                         <div class="tech-used-container">
