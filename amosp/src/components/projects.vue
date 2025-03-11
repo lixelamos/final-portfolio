@@ -24,7 +24,7 @@
                             </div>
                         </div>   
 
-                        <h1>Full-Stack-Doctor-Appointment-Booking </h1>
+                        <h1>Plan-Do- App</h1>
                         <p>The Plan Do  app is a digital implementation of the Promodoro Technique. It provides a user-friendly interface and features to help individuals effectively manage their time and tasks.</p>
                         <div class="tech-used-container">
                             <p class="tech-used">React.js</p>
@@ -145,7 +145,7 @@ residential and commercial properties.</p>
                             </div>
                         </div>   
 
-                     <h1>my-to-do-task</h1>
+                     <h1>Full-Stack-Doctor-Appointment-Booking k</h1>
                      <p>A fully functional doctor appointment booking platform that allows patients to book appointments, make online payments, and manage their bookings. The system includes an admin panel for managing doctors, appointments, and payments. Built with a modern Full Stack architecture, the platform ensures seamless performance, security, and user experience.</p>
                      <div class="tech-used-container">
                          <p class="tech-used">TypeScript</p>
