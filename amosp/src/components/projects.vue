@@ -24,7 +24,7 @@
                             </div>
                         </div>   
 
-                        <h1>Plan Do App</h1>
+                        <h1>Full-Stack-Doctor-Appointment-Booking </h1>
                         <p>The Plan Do  app is a digital implementation of the Promodoro Technique. It provides a user-friendly interface and features to help individuals effectively manage their time and tasks.</p>
                         <div class="tech-used-container">
                             <p class="tech-used">React.js</p>
