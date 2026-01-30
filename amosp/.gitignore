@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
-/dist
+# NOTE: dist is usually ignored, but we commit it for deployment in this repo.
+# dist
 
 
 # local env files
