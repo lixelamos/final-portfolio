@@ -48,7 +48,7 @@
                             </div>
                         </div>   
 
-                        <h1>Github search app</h1>
+                        <h1>Pelini Ltd</h1>
                         <p>Pelini, a debt collection management system. I built the frontend using React, integrated it with backend APIs, implemented authentication and role-based access, and focused on creating a responsive, production-ready user experience.</p>
                         <div class="tech-used-container">
                             <p class="tech-used">NextJS</p>
