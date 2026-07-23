@@ -36,12 +36,12 @@
                     
                     <div class="project-info">
                         <div class="project-section-icons-container">
-                            <a  target="_blank" class="code" href="https://github.com/lixelamos/phase-1-github-search-app">
+                            <a  target="_blank" class="code" href="">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> 
                             </a>
 
                             <div class="github-and-external-link">
-                                <a  target="_blank" href="https://githsearch.netlify.app/">
+                                <a  target="_blank" href="https://pelini-ltd.vercel.app//">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
                                     </svg>
                                 </a>
@@ -49,12 +49,12 @@
                         </div>   
 
                         <h1>Github search app</h1>
-                        <p>The GitHub Search app is a powerful tool that I have developed to help users find repositories and users on the GitHub platform. With this app, users can easily search for repositories and connect with other users based on their specific search criteria.</p>
+                        <p>Pelini, a debt collection management system. I built the frontend using React, integrated it with backend APIs, implemented authentication and role-based access, and focused on creating a responsive, production-ready user experience.</p>
                         <div class="tech-used-container">
-                            <p class="tech-used">HTML</p>
-                            <p class="tech-used">CSS</p>
-                            <p class="tech-used">Javascript</p>
-                            <p class="tech-used">Fetch API</p>
+                            <p class="tech-used">NextJS</p>
+                            <p class="tech-used">Typescript</p>
+                        
+                    
           
                         </div>
 
@@ -95,29 +95,25 @@
                     
                     <div class="project-info">
                         <div class="project-section-icons-container">
-                            <a target="_blank" class="code" href="https://github.com/lixelamos/home-quest-frontend">
+                            <a target="_blank" class="code" href="https://github.com/lixelamos/LMS-Content-to-PDF-Extractor">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                             </svg> 
                             </a>
 
                             <div class="github-and-external-link">
-                                <a target="_blank"  href="https://home-quest-frontend-hx9w.vercel.app/">
+                                <a target="_blank"  href="https://github.com/lixelamos/LMS-Content-to-PDF-Extractor">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
                                     </svg>
                                 </a>
                             </div>
                         </div>   
 
-                        <h1>Home-Quest</h1>
-                        <p>This project aims to create a comprehensive online platform that connects property
-buyers, sellers, and renters, offering a user-friendly and informative experience for individuals seeking to buy, sell, or rent
-residential and commercial properties.</p>
+                        <h1>LMS-Content-to-PDF-Extractor</h1>
+                        <p>A Python tool to extract and download course content from  LMS as PDF files for offline study. What It Does Authenticates with your LMS account and downloads course pages (modules, exercises, assessments)</p>
                         <div class="tech-used-container">
-                            <p class="tech-used">HTML</p>
-                            <p class="tech-used">CSS</p>
-                            <p class="tech-used">Javascript</p>
-                            <p class="tech-used">React.js</p>
-                            <p class="tech-used">Flask</p>
+                            <p class="tech-used">Python</p>
+                            <p class="tech-used">Shell</p>
+                        
 
                         </div>
 
@@ -133,28 +129,26 @@ residential and commercial properties.</p>
                     <div class="project-info">
 
                            <div class="project-section-icons-container">
-                            <a  target="_blank" class="code" href="https://github.com/lixelamos/prescripto">
+                            <a  target="_blank" class="code" href="https://github.com/lixelamos/smartseason">
                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> 
                             </a>
 
                             <div class="github-and-external-link">
-                                <a  target="_blank" href="https://prescripto-gfwx-eant4r86x-lixelamos-projects.vercel.app/">
+                                <a  target="_blank" href="https://shamba-phi.vercel.app/">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
                                     </svg>
                                 </a>
                             </div>
                         </div>   
 
-                     <h1>Full-Stack-Doctor-Appointment-Booking </h1>
-                     <p>A fully functional doctor appointment booking platform that allows patients to book appointments, make online payments, and manage their bookings. The system includes an admin panel for managing doctors, appointments, and payments. Built with a modern Full Stack architecture, the platform ensures seamless performance, security, and user experience.</p>
+                     <h1>SmartSeason Field Monitoring</h1>
+                     <p>Small full-stack app for tracking crop progress across fields during a season. Coordinators (admins) manage the catalog and assignments, and both admins and assigned field agents can log observations (stage and/or notes) on fields they can access.</p>
                      <div class="tech-used-container">
                          <p class="tech-used">TypeScript</p>
-                         <p class="tech-used">Tailwind CSSt</p>
-                                                  <p class="tech-used">MONGO DB</p>
-
-                                                  <p class="tech-used">REACT JS</p>
-
-                                                  <p class="tech-used">Node JS</p>
+                         <p class="tech-used">Tailwind</p>
+                          <p class="tech-used"> Node.js </p>
+                         <p class="tech-used">Express </p>
+                         <p class="tech-used">SQLite </p>
 
                      </div>
                     </div>
