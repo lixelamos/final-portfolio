@@ -87,11 +87,7 @@
     
                     </div>
     
-                    
-                    
-                    
-                    
-                    
+          
                     
                     <div class="project-info">
                         <div class="project-section-icons-container">
