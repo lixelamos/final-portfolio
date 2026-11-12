@@ -56,6 +56,33 @@ export const projects: Project[] = [
       "Download and release pages",
     ],
   },
+{
+  "slug": "evcharging",
+  "name": "EV Charging Dashboard",
+  "category": "Frontend",
+  "label": "ELECTRIC MOBILITY · DASHBOARD",
+  "description": "A React and TypeScript dashboard integrating charging-device APIs for station status, device monitoring, and charging records.",
+  "stack": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Leaflet",
+    "Recharts"
+  ],
+  "url": "https://ev-charging-dashboard-alpha.vercel.app/",
+  "color": "blue",
+  "role": "Frontend development",
+  "detail": "Integrated charging-infrastructure REST APIs through Axios for charge-point status, heartbeats, meter readings, and transactions. The dashboard polls every 30 seconds, with Leaflet maps and Recharts visualisations. Some charts and workflow values use sample data.",
+  "liveNote": "Demo sign-in accepts any email and password",
+  "screenshot": "/images/projects/evcharging.png",
+  "screenshotCaption": "Demo dashboard with a Nairobi station map, charging information, and usage statistics",
+  "context": "Drivers need to find charging stations and organise charging sessions, while administrators manage the charging network. Separate user and administrator routes support those workflows.",
+  "highlights": [
+    "Charging-device API integration",
+    "Polling for station status",
+    "User and admin views"
+  ]
+},
   {
     slug: "pelini",
     screenshot: "/images/projects/pelini.png",
