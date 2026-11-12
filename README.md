@@ -1,46 +1,31 @@
 # Kipkorir Amos — portfolio
 
-The revamped portfolio runs from this repository root using **Next.js App Router, React, and TypeScript**. The previous Vue site remains in `amosp/` for reference.
+Next.js App Router, React, and TypeScript. The previous Vue site remains in `amosp/`.
 
-## Local preview
+## Local development
 
-```sh
-npm ci
-npm run dev
-```
+Use Node 24 (see `.nvmrc`), run `npm ci`, then `npm run dev`. The preview runs at http://127.0.0.1:3002. The dev script uses Webpack polling for local filesystem compatibility.
 
-Open http://127.0.0.1:3002. `npm run build` creates the production build. `npm run typecheck` checks TypeScript. Use Node 24 (the existing `.nvmrc`). The dev server uses Webpack polling for compatibility with local filesystem watchers.
+- `npm run build`: production build and TypeScript checks.
+- `npm run typecheck`: TypeScript only.
 
-## Update the portfolio
+## Updating content
 
-- `lib/content.ts`: projects, categories, technology tags, project links, contact profiles, résumé URL.
-- `app/page.tsx`: introduction, about section, toolkit, approach.
-- `app/globals.css`: typography, colours, layout and responsive styles.
-- `components/project-gallery.tsx`: filtering and expandable implementation notes.
-- `public/images/amos.svg`: the portrait illustration extracted from the original Vue source.
+- `lib/content.ts`: project descriptions, live and source links, contact profiles, résumé, screenshots.
+- `app/page.tsx`: hero, about, and secondary e-learning interest.
+- `components/project-gallery.tsx`: featured project, paired project layouts, filters, expandable explanations.
+- `app/globals.css`: navy/cobalt/lime design, typography, responsive layouts, light/dark themes.
+- `public/images/amos.jpg`: supplied portrait photograph.
+- `public/images/projects/`: real browser screenshots captured from each project’s live deployment.
 
-Project content and links come from the supplied Vue portfolio. Projects use text descriptions, implementation notes, technology lists, and links to the application or source. Invented interface previews have been removed. The résumé uses the original header's Google Drive link; the old Vue résumé component had a different link.
+The hero uses bold name typography and the supplied photograph. FlowDock has a featured split layout; the other projects use paired screenshots. Screenshots show public pages; SmartSeason’s screen is explicitly labelled as sign-in within its expanded description. Application context, implementation details, and feature summaries remain available under “A closer look”.
 
-No employment history, education, client quotes, user counts, or performance results have been invented. No email is sent automatically. Email actions open the visitor's email app; the copy action copies the published address.
+## Live project policy
 
-## Deployment configuration
+Only projects with accessible live entry pages are listed. Five projects are retained: FlowDock, Resolva Africa (Pelini), QuickAI, SmartSeason, and Plan-Do. Private source is not linked. Protected workflows require an account and were not tested after authentication. No accounts, paid actions, download transactions, or test submissions were created during verification.
 
-`vercel.json` now selects Next.js from the repository root, replacing the old nested Vue static-build configuration. Existing hosted project root settings may also need to be set to the repository root before deployment. No deployment was made during this revamp.
+Prior review removed Pinvent (deployment 404), Edemy (visible backend request failure), Mini Job Board (no live URL identified), and LMS → PDF (CLI without a live web demo). The e-learning portfolio is a secondary interest, not the primary role.
 
-## Visual direction
+## Deployment
 
-A restrained personal portfolio: a desktop navigation rail, serif name heading, readable project rows, and understated green accents. On mobile the rail becomes a small header. No decorative hero illustrations, mock dashboards, marketing slogans, or philosophy cards. Eight projects and the secondary e-learning interest are retained.
-
-## Live demo review — 6 November 2026
-
-The gallery now contains only four projects with accessible live demos: Resolva Africa (Pelini), QuickAI, SmartSeason, and Plan-Do. The first three require sign-in for protected functionality; no authenticated workflows were tested. Pinvent returned a deployment 404. Edemy rendered a backend request failure. Mini Job Board had no live URL in its repository metadata, and LMS → PDF is a CLI project without a live demo. These four projects were removed from the gallery. Photo: supplied `public/images/amos.jpg`.
-
-## Project visuals
-
-Each retained project now includes an actual browser screenshot from its live deployment, stored under `public/images/projects/`. Resolva Africa and QuickAI show public landing pages, SmartSeason shows the public sign-in screen, and Plan-Do shows task creation. Screenshots were captured on 6 November 2026. Application context, implementation details, feature summaries, and visible live/source links accompany each image. No private dashboards or fictional interfaces are shown.
-
-## Readability and responsive review
-
-Body/project explanation text is now 16px; project introductions are 18px. Supporting text and controls have been enlarged too. Tested widths: 320, 390, 768, 1024, and 1440px, with no horizontal overflow. The sidebar becomes a header at 900px; project explanations stack at 1100px.
-
-FlowDock is now the first project, linked to its verified live website at https://www.flowdock.space/ with an actual screenshot. Its repository is private and not exposed as a public source link.
+The root `vercel.json` selects Next.js. A hosted project must use the repository root, rather than `amosp/`. The résumé uses the Google Drive URL from the original portfolio header.
