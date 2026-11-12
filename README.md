@@ -1,36 +1,46 @@
-# final-portfolio
-Portfolio
+# Kipkorir Amos — portfolio
 
+The revamped portfolio runs from this repository root using **Next.js App Router, React, and TypeScript**. The previous Vue site remains in `amosp/` for reference.
 
-This is my personal portfolio showcasing my professional achievements, skills, experiences, and projects. It is designed to provide an interactive and visually appealing representation of my work.
+## Local preview
 
-Features
-Responsive Design: The portfolio is built with responsive design principles, ensuring it is accessible and functional across various devices and screen sizes.
+```sh
+npm ci
+npm run dev
+```
 
-Project Showcase: The portfolio includes a dedicated section to showcase my projects. Each project is presented with a brief description, relevant images, and links to view the project in detail.
+Open http://127.0.0.1:3002. `npm run build` creates the production build. `npm run typecheck` checks TypeScript. Use Node 24 (the existing `.nvmrc`). The dev server uses Webpack polling for compatibility with local filesystem watchers.
 
-Interactive Elements: The portfolio incorporates interactive elements such as scrolling effects, animations, and clickable elements to enhance user engagement and create an immersive experience.
+## Update the portfolio
 
-Skills and Expertise: A dedicated section highlights my skills and areas of expertise. Visual icons and progress bars are used to represent proficiency levels in different areas.
+- `lib/content.ts`: projects, categories, technology tags, project links, contact profiles, résumé URL.
+- `app/page.tsx`: introduction, about section, toolkit, approach.
+- `app/globals.css`: typography, colours, layout and responsive styles.
+- `components/project-gallery.tsx`: filtering and expandable implementation notes.
+- `public/images/amos.svg`: the portrait illustration extracted from the original Vue source.
 
-Contact Information: Contact details, including email address, phone number, and links to professional social media profiles, are provided to facilitate easy communication with potential employers or clients.
+Project content and links come from the supplied Vue portfolio. Projects use text descriptions, implementation notes, technology lists, and links to the application or source. Invented interface previews have been removed. The résumé uses the original header's Google Drive link; the old Vue résumé component had a different link.
 
-Technologies Used
-HTML5
-CSS3
-JavaScript
-Vue.js (optional)
+No employment history, education, client quotes, user counts, or performance results have been invented. No email is sent automatically. Email actions open the visitor's email app; the copy action copies the published address.
 
-Other libraries or frameworks as necessary
+## Deployment configuration
 
-Getting Started
-To view the portfolio, simply open the index.html file in a web browser. The portfolio is designed to be self-contained, requiring no additional dependencies or setup.
+`vercel.json` now selects Next.js from the repository root, replacing the old nested Vue static-build configuration. Existing hosted project root settings may also need to be set to the repository root before deployment. No deployment was made during this revamp.
 
-Contributions
-Contributions to the portfolio are welcome! If you find any issues or have suggestions for improvements, please submit a pull request or open an issue in this repository.
+## Visual direction
 
-License
-The portfolio is licensed under the MIT License, granting permissions to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the portfolio.
+A restrained personal portfolio: a desktop navigation rail, serif name heading, readable project rows, and understated green accents. On mobile the rail becomes a small header. No decorative hero illustrations, mock dashboards, marketing slogans, or philosophy cards. Eight projects and the secondary e-learning interest are retained.
 
-Contact
-For any inquiries or collaboration opportunities, feel free to reach out to me:
+## Live demo review — 6 November 2026
+
+The gallery now contains only four projects with accessible live demos: Resolva Africa (Pelini), QuickAI, SmartSeason, and Plan-Do. The first three require sign-in for protected functionality; no authenticated workflows were tested. Pinvent returned a deployment 404. Edemy rendered a backend request failure. Mini Job Board had no live URL in its repository metadata, and LMS → PDF is a CLI project without a live demo. These four projects were removed from the gallery. Photo: supplied `public/images/amos.jpg`.
+
+## Project visuals
+
+Each retained project now includes an actual browser screenshot from its live deployment, stored under `public/images/projects/`. Resolva Africa and QuickAI show public landing pages, SmartSeason shows the public sign-in screen, and Plan-Do shows task creation. Screenshots were captured on 6 November 2026. Application context, implementation details, feature summaries, and visible live/source links accompany each image. No private dashboards or fictional interfaces are shown.
+
+## Readability and responsive review
+
+Body/project explanation text is now 16px; project introductions are 18px. Supporting text and controls have been enlarged too. Tested widths: 320, 390, 768, 1024, and 1440px, with no horizontal overflow. The sidebar becomes a header at 900px; project explanations stack at 1100px.
+
+FlowDock is now the first project, linked to its verified live website at https://www.flowdock.space/ with an actual screenshot. Its repository is private and not exposed as a public source link.
